@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  width: 100%;
+  overflow-x: clip;
+}
+
+header {
+  width: 100%;
+  background-color: gray;
+  padding: 10px 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  margin-top: 10px;
+}
+
+.main-divs {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 320px;
+}
+
+.main-items {
+  margin: 0 auto;
+}
+
+.input-parent {
+  display: flex;
+}
+
+#inputCheck {
+  padding: 5px 7px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+#check {
+  border: solid 1px gray;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-left: 3px;
+  color: black;
+  padding: 2px 3px;
+}
+
+.hr {
+  width: 95%;
+  margin: 20px 0px;
+}
+
+.palindromeMessage,
+.noPalindromeMessage {
+  width: 275px;
+  margin: 0px auto;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.palindromeMessage {
+  border: solid 2px green;
+  background-color: lightgreen;
+}
+
+.noPalindromeMessage {
+  border: solid 2px crimson;
+  background-color: #ffbaba;
+}
+
+.palindromeMessage p,
+.noPalindromeMessage p {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.showB {
+  display: block;
+}
+
+.showF {
+  display: flex;
+}
+
+#check:hover{
+  background-color: #b0b0b0;
+  cursor: pointer;
+}
