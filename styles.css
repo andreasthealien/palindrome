@@ -100,3 +100,26 @@ main {
   background-color: #b0b0b0;
   cursor: pointer;
 }
+
+footer{
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 20px;
+}
+footer a{
+  margin: auto;
+}
+footer a{
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+footer a:link{
+  color: #fef6fd;
+}
+footer a:visited{
+  color: #eee5ff;
+}
